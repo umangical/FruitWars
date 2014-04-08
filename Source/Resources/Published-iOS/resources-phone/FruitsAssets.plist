@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>FruitsAssets/apple.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{963, 277}, {17, 21}}</string>
+			<key>offset</key>
+			<string>{0, -1}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{4, 3}, {17, 21}}</string>
+			<key>sourceSize</key>
+			<string>{25, 25}</string>
+		</dict>
+		<key>FruitsAssets/background.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1}, {960, 320}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {960, 320}}</string>
+			<key>sourceSize</key>
+			<string>{960, 320}</string>
+		</dict>
+		<key>FruitsAssets/banana.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{989, 228}, {20, 22}}</string>
+			<key>offset</key>
+			<string>{0, -1}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{2, 2}, {20, 22}}</string>
+			<key>sourceSize</key>
+			<string>{25, 25}</string>
+		</dict>
+		<key>FruitsAssets/barrel.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{963, 1}, {25, 49}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {25, 49}}</string>
+			<key>sourceSize</key>
+			<string>{25, 50}</string>
+		</dict>
+		<key>FruitsAssets/button.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{323, 323}, {167, 152}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {167, 152}}</string>
+			<key>sourceSize</key>
+			<string>{167, 152}</string>
+		</dict>
+		<key>FruitsAssets/catapult.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 893}, {215, 79}}</string>
+			<key>offset</key>
+			<string>{0, -6}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 13}, {215, 79}}</string>
+			<key>sourceSize</key>
+			<string>{215, 92}</string>
+		</dict>
+		<key>FruitsAssets/catapultarm.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{963, 28}, {42, 177}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {42, 177}}</string>
+			<key>sourceSize</key>
+			<string>{42, 177}</string>
+		</dict>
+		<key>FruitsAssets/ground.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{986, 254}, {-960, -61}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{960, 61}, {-960, -61}}</string>
+			<key>sourceSize</key>
+			<string>{960, 61}</string>
+		</dict>
+		<key>FruitsAssets/kiwi.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{963, 254}, {21, 21}}</string>
+			<key>offset</key>
+			<string>{0, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{2, 3}, {21, 21}}</string>
+			<key>sourceSize</key>
+			<string>{25, 25}</string>
+		</dict>
+		<key>FruitsAssets/lemon.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{986, 269}, {18, 21}}</string>
+			<key>offset</key>
+			<string>{1, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{4, 2}, {18, 21}}</string>
+			<key>sourceSize</key>
+			<string>{25, 25}</string>
+		</dict>
+		<key>FruitsAssets/menu_background.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 323}, {568, 320}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {568, 320}}</string>
+			<key>sourceSize</key>
+			<string>{568, 320}</string>
+		</dict>
+		<key>FruitsAssets/orange.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{986, 289}, {19, 20}}</string>
+			<key>offset</key>
+			<string>{0, -1}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{3, 3}, {19, 20}}</string>
+			<key>sourceSize</key>
+			<string>{25, 25}</string>
+		</dict>
+		<key>FruitsAssets/pineapple.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{989, 207}, {19, 23}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{3, 1}, {19, 23}}</string>
+			<key>sourceSize</key>
+			<string>{25, 25}</string>
+		</dict>
+		<key>FruitsAssets/squareblock.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{963, 207}, {24, 24}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {24, 24}}</string>
+			<key>sourceSize</key>
+			<string>{24, 24}</string>
+		</dict>
+		<key>FruitsAssets/strawberry.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{987, 250}, {17, 22}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{4, 1}, {17, 22}}</string>
+			<key>sourceSize</key>
+			<string>{25, 25}</string>
+		</dict>
+		<key>FruitsAssets/watermelon.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{963, 233}, {19, 22}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{4, 2}, {19, 22}}</string>
+			<key>sourceSize</key>
+			<string>{25, 25}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>size</key>
+		<string>{1024, 1024}</string>
+		<key>textureFileName</key>
+		<string>FruitsAssets.png</string>
+	</dict>
+</dict>
+</plist>
