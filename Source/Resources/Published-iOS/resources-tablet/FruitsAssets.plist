@@ -59,11 +59,11 @@
 		<key>FruitsAssets/button.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{643, 643}, {334, 305}}</string>
+			<string>{{643, 1285}, {334, 305}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
-			<false/>
+			<true/>
 			<key>sourceColorRect</key>
 			<string>{{0, 0}, {334, 305}}</string>
 			<key>sourceSize</key>
@@ -133,6 +133,19 @@
 			<string>{{8, 4}, {36, 42}}</string>
 			<key>sourceSize</key>
 			<string>{50, 50}</string>
+		</dict>
+		<key>FruitsAssets/levelbackground.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{643, 643}, {1136, 640}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {1136, 640}}</string>
+			<key>sourceSize</key>
+			<string>{1136, 640}</string>
 		</dict>
 		<key>FruitsAssets/menu_background.png</key>
 		<dict>

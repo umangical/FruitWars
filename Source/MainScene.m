@@ -11,8 +11,8 @@
 @implementation MainScene
 
 - (void)play {
-    CCScene *gameplayScene = [CCBReader loadAsScene:@"Gameplay"];
-    [[CCDirector sharedDirector] replaceScene:gameplayScene];
+    CCScene *menuScene = [CCBReader loadAsScene:@"Menu"];
+    [[CCDirector sharedDirector] replaceScene:menuScene];
 }
 
 @end
