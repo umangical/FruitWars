@@ -20,37 +20,34 @@
     [[CCDirector sharedDirector] replaceScene:gameplayScene2];
 }
 
-/*
- - (void)playThree {
-    CCScene *gameplayScene = [CCBReader loadAsScene:@"Gameplay"];
-    [[CCDirector sharedDirector] replaceScene:gameplayScene];
+ - (void)three {
+    CCScene *gameplayScene3 = [CCBReader loadAsScene:@"GameplayThree"];
+    [[CCDirector sharedDirector] replaceScene:gameplayScene3];
 }
 
-- (void)playFour {
-    CCScene *gameplayScene = [CCBReader loadAsScene:@"Gameplay"];
-    [[CCDirector sharedDirector] replaceScene:gameplayScene];
+- (void)four {
+    CCScene *gameplayScene4 = [CCBReader loadAsScene:@"GameplayFour"];
+    [[CCDirector sharedDirector] replaceScene:gameplayScene4];
 }
 
-- (void)playFive {
-    CCScene *gameplayScene = [CCBReader loadAsScene:@"Gameplay"];
-    [[CCDirector sharedDirector] replaceScene:gameplayScene];
+- (void)five {
+    CCScene *gameplayScene5 = [CCBReader loadAsScene:@"GameplayFive"];
+    [[CCDirector sharedDirector] replaceScene:gameplayScene5];
 }
 
-- (void)playSix {
-    CCScene *gameplayScene = [CCBReader loadAsScene:@"Gameplay"];
-    [[CCDirector sharedDirector] replaceScene:gameplayScene];
+- (void)six {
+    CCScene *gameplayScene6 = [CCBReader loadAsScene:@"GameplaySix"];
+    [[CCDirector sharedDirector] replaceScene:gameplayScene6];
 }
 
-- (void)playSeven {
-    CCScene *gameplayScene = [CCBReader loadAsScene:@"Gameplay"];
-    [[CCDirector sharedDirector] replaceScene:gameplayScene];
+- (void)seven {
+    CCScene *gameplayScene7 = [CCBReader loadAsScene:@"GameplaySeven"];
+    [[CCDirector sharedDirector] replaceScene:gameplayScene7];
 }
 
-- (void)playEight {
-    CCScene *gameplayScene = [CCBReader loadAsScene:@"Gameplay"];
-    [[CCDirector sharedDirector] replaceScene:gameplayScene];
+- (void)eight {
+    CCScene *gameplayScene8 = [CCBReader loadAsScene:@"GameplayEight"];
+    [[CCDirector sharedDirector] replaceScene:gameplayScene8];
 }
- 
-*/
 
 @end

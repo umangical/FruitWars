@@ -1,14 +1,15 @@
 //
-//  Gameplay.m
+//  GameplayFive.m
 //  Fruits
 //
-//  Created by Umang Methi on 4/5/14.
+//  Created by Umang Methi on 4/28/14.
 //  Copyright (c) 2014 Apportable. All rights reserved.
 //
 
-#import "Gameplay.h"
+#import "GameplayFive.h"
 
-@implementation Gameplay {
+@implementation GameplayFive {
+    
     CCPhysicsNode *_physicsNode;
     CCNode *_catapultArm;
     CCNode *_levelNode;
@@ -29,7 +30,7 @@
     // tell this scene to accept touches
     self.userInteractionEnabled = TRUE;
     
-    CCScene *level = [CCBReader loadAsScene:@"Levels/Level1"];
+    CCScene *level = [CCBReader loadAsScene:@"Levels/Level5"];
     [_levelNode addChild:level];
     
     // catapultArm and catapult shall not collide
@@ -64,7 +65,7 @@
         _mouseJoint = [CCPhysicsJoint connectedSpringJointWithBodyA:_mouseJointNode.physicsBody bodyB:_catapultArm.physicsBody anchorA:ccp(0, 0) anchorB:ccp(34, 138) restLength:0.f stiffness:3000.f damping:150.f];
         
         // create a penguin from the ccb-file
-        _currentFruit = [CCBReader load:@"Apple"];
+        _currentFruit = [CCBReader load:@"Banana"];
         // initially position it on the scoop. 34,138 is the position in the node space of the _catapultArm
         CGPoint fruitPosition = [_catapultArm convertToWorldSpace:ccp(34, 138)];
         // transform the world position to the node space to which the penguin will be added (_physicsNode)
@@ -118,29 +119,29 @@
     [self releaseCatapult];
 }
 
-- (void)launchApple {
+- (void)launchBanana {
     // loads the Penguin.ccb we have set up in Spritebuilder
-    CCNode* apple = [CCBReader load:@"Apple"];
+    CCNode* banana = [CCBReader load:@"Banana"];
     // position the penguin at the bowl of the catapult
-    apple.position = ccpAdd(_catapultArm.position, ccp(16, 50));
+    banana.position = ccpAdd(_catapultArm.position, ccp(16, 50));
     
     // add the penguin to the physicsNode of this scene (because it has physics enabled)
-    [_physicsNode addChild:apple];
+    [_physicsNode addChild:banana];
     
     // manually create & apply a force to launch the penguin
     CGPoint launchDirection = ccp(1, 0);
     CGPoint force = ccpMult(launchDirection, 8000);
-    [apple.physicsBody applyForce:force];
+    [banana.physicsBody applyForce:force];
     
     // ensure followed object is in visible are when starting
     self.position = ccp(0, 0);
-    CCActionFollow *follow = [CCActionFollow actionWithTarget:apple worldBoundary:self.boundingBox];
+    CCActionFollow *follow = [CCActionFollow actionWithTarget:banana worldBoundary:self.boundingBox];
     [_contentNode runAction:follow];
 }
 
 - (void)retry {
     // reload this level
-    [[CCDirector sharedDirector] replaceScene: [CCBReader loadAsScene:@"Gameplay"]];
+    [[CCDirector sharedDirector] replaceScene: [CCBReader loadAsScene:@"GameplayFive"]];
 }
 
 @end

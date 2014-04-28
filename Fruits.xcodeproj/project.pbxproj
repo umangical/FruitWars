@@ -36,6 +36,12 @@
 		B77F1B4017B978D7009739AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B3F17B978D7009739AE /* CoreGraphics.framework */; };
 		B77F1B4217B978D7009739AE /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B4117B978D7009739AE /* CoreText.framework */; };
 		F411784518FCB1C9006629D4 /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = F411784418FCB1C9006629D4 /* Menu.m */; };
+		F41F1933190EFE0A0061EB7F /* GameplayThree.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F1932190EFE0A0061EB7F /* GameplayThree.m */; };
+		F41F1937190F01630061EB7F /* GameplayFour.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F1936190F01630061EB7F /* GameplayFour.m */; };
+		F41F193C190F02510061EB7F /* GameplayFive.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F193B190F02510061EB7F /* GameplayFive.m */; };
+		F41F1940190F02C90061EB7F /* GameplaySix.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F193F190F02C90061EB7F /* GameplaySix.m */; };
+		F41F1943190F033B0061EB7F /* GameplaySeven.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F1942190F033B0061EB7F /* GameplaySeven.m */; };
+		F41F1946190F03950061EB7F /* GameplayEight.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F1945190F03950061EB7F /* GameplayEight.m */; };
 		F435A15318F3757200CCE0DA /* Barrel.m in Sources */ = {isa = PBXBuildFile; fileRef = F435A15218F3757200CCE0DA /* Barrel.m */; };
 		F49F3E0F18FCB93F00859407 /* GameplayTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = F49F3E0E18FCB93F00859407 /* GameplayTwo.m */; };
 		F4C558BA18F0E5B600597C3C /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C558B918F0E5B600597C3C /* Apple.m */; };
@@ -102,6 +108,18 @@
 		B7B3713D180358F1007369CC /* libObjectiveChipmunk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libObjectiveChipmunk.a; path = "../libs/cocos2d-iphone/external/Chipmunk/xcode/build/Debug-iphoneos/libObjectiveChipmunk.a"; sourceTree = "<group>"; };
 		F411784318FCB1C9006629D4 /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Menu.h; path = Source/Menu.h; sourceTree = "<group>"; };
 		F411784418FCB1C9006629D4 /* Menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Menu.m; path = Source/Menu.m; sourceTree = "<group>"; };
+		F41F1931190EFE0A0061EB7F /* GameplayThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameplayThree.h; path = Source/GameplayThree.h; sourceTree = "<group>"; };
+		F41F1932190EFE0A0061EB7F /* GameplayThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameplayThree.m; path = Source/GameplayThree.m; sourceTree = "<group>"; };
+		F41F1935190F01630061EB7F /* GameplayFour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameplayFour.h; path = Source/GameplayFour.h; sourceTree = "<group>"; };
+		F41F1936190F01630061EB7F /* GameplayFour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameplayFour.m; path = Source/GameplayFour.m; sourceTree = "<group>"; };
+		F41F193A190F02510061EB7F /* GameplayFive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameplayFive.h; path = Source/GameplayFive.h; sourceTree = "<group>"; };
+		F41F193B190F02510061EB7F /* GameplayFive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameplayFive.m; path = Source/GameplayFive.m; sourceTree = "<group>"; };
+		F41F193E190F02C90061EB7F /* GameplaySix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameplaySix.h; path = Source/GameplaySix.h; sourceTree = "<group>"; };
+		F41F193F190F02C90061EB7F /* GameplaySix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameplaySix.m; path = Source/GameplaySix.m; sourceTree = "<group>"; };
+		F41F1941190F033B0061EB7F /* GameplaySeven.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameplaySeven.h; path = Source/GameplaySeven.h; sourceTree = "<group>"; };
+		F41F1942190F033B0061EB7F /* GameplaySeven.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameplaySeven.m; path = Source/GameplaySeven.m; sourceTree = "<group>"; };
+		F41F1944190F03950061EB7F /* GameplayEight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameplayEight.h; path = Source/GameplayEight.h; sourceTree = "<group>"; };
+		F41F1945190F03950061EB7F /* GameplayEight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameplayEight.m; path = Source/GameplayEight.m; sourceTree = "<group>"; };
 		F435A15118F3757200CCE0DA /* Barrel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Barrel.h; path = Source/Barrel.h; sourceTree = "<group>"; };
 		F435A15218F3757200CCE0DA /* Barrel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Barrel.m; path = Source/Barrel.m; sourceTree = "<group>"; };
 		F49F3E0D18FCB93F00859407 /* GameplayTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameplayTwo.h; path = Source/GameplayTwo.h; sourceTree = "<group>"; };
@@ -168,6 +186,18 @@
 				F4C558D218F0EA5E00597C3C /* Gameplay.m */,
 				F49F3E0D18FCB93F00859407 /* GameplayTwo.h */,
 				F49F3E0E18FCB93F00859407 /* GameplayTwo.m */,
+				F41F1931190EFE0A0061EB7F /* GameplayThree.h */,
+				F41F1932190EFE0A0061EB7F /* GameplayThree.m */,
+				F41F1935190F01630061EB7F /* GameplayFour.h */,
+				F41F1936190F01630061EB7F /* GameplayFour.m */,
+				F41F193A190F02510061EB7F /* GameplayFive.h */,
+				F41F193B190F02510061EB7F /* GameplayFive.m */,
+				F41F193E190F02C90061EB7F /* GameplaySix.h */,
+				F41F193F190F02C90061EB7F /* GameplaySix.m */,
+				F41F1941190F033B0061EB7F /* GameplaySeven.h */,
+				F41F1942190F033B0061EB7F /* GameplaySeven.m */,
+				F41F1944190F03950061EB7F /* GameplayEight.h */,
+				F41F1945190F03950061EB7F /* GameplayEight.m */,
 				F435A15118F3757200CCE0DA /* Barrel.h */,
 				F435A15218F3757200CCE0DA /* Barrel.m */,
 				F4C558B818F0E5B600597C3C /* Apple.h */,
@@ -380,19 +410,25 @@
 			files = (
 				F4C558BA18F0E5B600597C3C /* Apple.m in Sources */,
 				F4C558D018F0E68400597C3C /* Watermelon.m in Sources */,
+				F41F1933190EFE0A0061EB7F /* GameplayThree.m in Sources */,
 				F4C558CA18F0E63800597C3C /* Orange.m in Sources */,
 				F4C558C418F0E61700597C3C /* Lemon.m in Sources */,
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
 				F4C558D318F0EA5E00597C3C /* Gameplay.m in Sources */,
+				F41F1943190F033B0061EB7F /* GameplaySeven.m in Sources */,
+				F41F193C190F02510061EB7F /* GameplayFive.m in Sources */,
 				F4C558BE18F0E5C300597C3C /* Banana.m in Sources */,
 				F49F3E0F18FCB93F00859407 /* GameplayTwo.m in Sources */,
+				F41F1937190F01630061EB7F /* GameplayFour.m in Sources */,
 				F4C558C718F0E62800597C3C /* Pineapple.m in Sources */,
 				F411784518FCB1C9006629D4 /* Menu.m in Sources */,
 				B7378994180767190076A88C /* MainScene.m in Sources */,
+				F41F1946190F03950061EB7F /* GameplayEight.m in Sources */,
 				F435A15318F3757200CCE0DA /* Barrel.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
 				F4C558CD18F0E64E00597C3C /* Strawberry.m in Sources */,
 				F4C558C118F0E5D500597C3C /* Kiwi.m in Sources */,
+				F41F1940190F02C90061EB7F /* GameplaySix.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
