@@ -10,4 +10,8 @@
 
 @implementation Orange
 
+- (void)didLoadFromCCB {
+    self.physicsBody.collisionType = @"orange";
+}
+
 @end

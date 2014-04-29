@@ -10,4 +10,8 @@
 
 @implementation Apple
 
+- (void)didLoadFromCCB {
+    self.physicsBody.collisionType = @"apple";
+}
+
 @end

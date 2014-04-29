@@ -53,6 +53,8 @@
 		F4C558CD18F0E64E00597C3C /* Strawberry.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C558CC18F0E64E00597C3C /* Strawberry.m */; };
 		F4C558D018F0E68400597C3C /* Watermelon.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C558CF18F0E68400597C3C /* Watermelon.m */; };
 		F4C558D318F0EA5E00597C3C /* Gameplay.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C558D218F0EA5E00597C3C /* Gameplay.m */; };
+		F4D2D4CE190F2BF800422C67 /* Star.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D2D4CD190F2BF800422C67 /* Star.m */; };
+		F4D2D4D2190F2C0B00422C67 /* Cannonball.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D2D4D1190F2C0B00422C67 /* Cannonball.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -142,6 +144,10 @@
 		F4C558CF18F0E68400597C3C /* Watermelon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Watermelon.m; path = Source/Watermelon.m; sourceTree = "<group>"; };
 		F4C558D118F0EA5E00597C3C /* Gameplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Gameplay.h; path = Source/Gameplay.h; sourceTree = "<group>"; };
 		F4C558D218F0EA5E00597C3C /* Gameplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Gameplay.m; path = Source/Gameplay.m; sourceTree = "<group>"; };
+		F4D2D4CC190F2BF800422C67 /* Star.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Star.h; path = Source/Star.h; sourceTree = "<group>"; };
+		F4D2D4CD190F2BF800422C67 /* Star.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Star.m; path = Source/Star.m; sourceTree = "<group>"; };
+		F4D2D4D0190F2C0B00422C67 /* Cannonball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cannonball.h; path = Source/Cannonball.h; sourceTree = "<group>"; };
+		F4D2D4D1190F2C0B00422C67 /* Cannonball.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Cannonball.m; path = Source/Cannonball.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +206,10 @@
 				F41F1945190F03950061EB7F /* GameplayEight.m */,
 				F435A15118F3757200CCE0DA /* Barrel.h */,
 				F435A15218F3757200CCE0DA /* Barrel.m */,
+				F4D2D4CC190F2BF800422C67 /* Star.h */,
+				F4D2D4CD190F2BF800422C67 /* Star.m */,
+				F4D2D4D0190F2C0B00422C67 /* Cannonball.h */,
+				F4D2D4D1190F2C0B00422C67 /* Cannonball.m */,
 				F4C558B818F0E5B600597C3C /* Apple.h */,
 				F4C558B918F0E5B600597C3C /* Apple.m */,
 				F4C558BC18F0E5C300597C3C /* Banana.h */,
@@ -424,9 +434,11 @@
 				F411784518FCB1C9006629D4 /* Menu.m in Sources */,
 				B7378994180767190076A88C /* MainScene.m in Sources */,
 				F41F1946190F03950061EB7F /* GameplayEight.m in Sources */,
+				F4D2D4D2190F2C0B00422C67 /* Cannonball.m in Sources */,
 				F435A15318F3757200CCE0DA /* Barrel.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
 				F4C558CD18F0E64E00597C3C /* Strawberry.m in Sources */,
+				F4D2D4CE190F2BF800422C67 /* Star.m in Sources */,
 				F4C558C118F0E5D500597C3C /* Kiwi.m in Sources */,
 				F41F1940190F02C90061EB7F /* GameplaySix.m in Sources */,
 			);

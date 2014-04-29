@@ -10,4 +10,8 @@
 
 @implementation Strawberry
 
+- (void)didLoadFromCCB {
+    self.physicsBody.collisionType = @"strawberry";
+}
+
 @end

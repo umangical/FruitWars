@@ -7,7 +7,7 @@
 		<key>FruitsAssets/apple.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{4013, 103}, {70, 82}}</string>
+			<string>{{4013, 305}, {70, 82}}</string>
 			<key>offset</key>
 			<string>{0, -4}</string>
 			<key>rotated</key>
@@ -33,7 +33,7 @@
 		<key>FruitsAssets/banana.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{4013, 175}, {80, 86}}</string>
+			<string>{{4013, 377}, {80, 86}}</string>
 			<key>offset</key>
 			<string>{-1, -2}</string>
 			<key>rotated</key>
@@ -46,7 +46,7 @@
 		<key>FruitsAssets/barrel.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{3843, 1}, {100, 200}}</string>
+			<string>{{3843, 203}, {100, 200}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -69,6 +69,19 @@
 			<key>sourceSize</key>
 			<string>{668, 610}</string>
 		</dict>
+		<key>FruitsAssets/cannonball.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3945, 1017}, {97, 100}}</string>
+			<key>offset</key>
+			<string>{-1, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {97, 100}}</string>
+			<key>sourceSize</key>
+			<string>{100, 100}</string>
+		</dict>
 		<key>FruitsAssets/catapult.png</key>
 		<dict>
 			<key>frame</key>
@@ -85,7 +98,7 @@
 		<key>FruitsAssets/catapultarm.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{3843, 103}, {168, 710}}</string>
+			<string>{{3843, 305}, {168, 710}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -98,7 +111,7 @@
 		<key>FruitsAssets/ground.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{4095, 175}, {-3840, -244}}</string>
+			<string>{{4095, 377}, {-3840, -244}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -111,7 +124,7 @@
 		<key>FruitsAssets/kiwi.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{3943, 815}, {84, 86}}</string>
+			<string>{{3843, 1119}, {84, 86}}</string>
 			<key>offset</key>
 			<string>{1, -4}</string>
 			<key>rotated</key>
@@ -124,7 +137,7 @@
 		<key>FruitsAssets/lemon.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{4013, 525}, {74, 86}}</string>
+			<string>{{4013, 727}, {74, 86}}</string>
 			<key>offset</key>
 			<string>{2, 0}</string>
 			<key>rotated</key>
@@ -137,19 +150,6 @@
 		<key>FruitsAssets/levelbackground.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1283, 1283}, {2272, 1280}}</string>
-			<key>offset</key>
-			<string>{0, 0}</string>
-			<key>rotated</key>
-			<false/>
-			<key>sourceColorRect</key>
-			<string>{{0, 0}, {2272, 1280}}</string>
-			<key>sourceSize</key>
-			<string>{2272, 1280}</string>
-		</dict>
-		<key>FruitsAssets/menu_background.png</key>
-		<dict>
-			<key>frame</key>
 			<string>{{1, 1283}, {2272, 1280}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
@@ -160,10 +160,23 @@
 			<key>sourceSize</key>
 			<string>{2272, 1280}</string>
 		</dict>
+		<key>FruitsAssets/menu_background.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1283, 1283}, {2272, 1280}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {2272, 1280}}</string>
+			<key>sourceSize</key>
+			<string>{2272, 1280}</string>
+		</dict>
 		<key>FruitsAssets/orange.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{4013, 263}, {76, 80}}</string>
+			<string>{{4013, 465}, {76, 80}}</string>
 			<key>offset</key>
 			<string>{-1, -3}</string>
 			<key>rotated</key>
@@ -176,7 +189,7 @@
 		<key>FruitsAssets/pineapple.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{4013, 341}, {78, 92}}</string>
+			<string>{{4013, 543}, {78, 92}}</string>
 			<key>offset</key>
 			<string>{0, -1}</string>
 			<key>rotated</key>
@@ -189,7 +202,7 @@
 		<key>FruitsAssets/squareblock.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{3843, 815}, {98, 96}}</string>
+			<string>{{3945, 1116}, {98, 96}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -199,10 +212,36 @@
 			<key>sourceSize</key>
 			<string>{98, 96}</string>
 		</dict>
+		<key>FruitsAssets/star.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3843, 1017}, {100, 100}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {100, 100}}</string>
+			<key>sourceSize</key>
+			<string>{100, 100}</string>
+		</dict>
+		<key>FruitsAssets/star1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3843, 1}, {200, 200}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {200, 200}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
 		<key>FruitsAssets/strawberry.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{4013, 613}, {68, 88}}</string>
+			<string>{{4013, 815}, {68, 88}}</string>
 			<key>offset</key>
 			<string>{-1, 1}</string>
 			<key>rotated</key>
@@ -215,7 +254,7 @@
 		<key>FruitsAssets/watermelon.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{4013, 435}, {76, 88}}</string>
+			<string>{{4013, 637}, {76, 88}}</string>
 			<key>offset</key>
 			<string>{5, -1}</string>
 			<key>rotated</key>

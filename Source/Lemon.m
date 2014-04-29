@@ -10,4 +10,8 @@
 
 @implementation Lemon
 
+- (void)didLoadFromCCB {
+    self.physicsBody.collisionType = @"lemon";
+}
+
 @end

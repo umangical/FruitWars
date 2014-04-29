@@ -10,4 +10,8 @@
 
 @implementation Watermelon
 
+- (void)didLoadFromCCB {
+    self.physicsBody.collisionType = @"watermelon";
+}
+
 @end

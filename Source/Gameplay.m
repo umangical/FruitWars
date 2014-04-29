@@ -64,7 +64,7 @@
         _mouseJoint = [CCPhysicsJoint connectedSpringJointWithBodyA:_mouseJointNode.physicsBody bodyB:_catapultArm.physicsBody anchorA:ccp(0, 0) anchorB:ccp(34, 138) restLength:0.f stiffness:3000.f damping:150.f];
         
         // create a penguin from the ccb-file
-        _currentFruit = [CCBReader load:@"Apple"];
+        _currentFruit = [CCBReader load:@"Cannonball"];
         // initially position it on the scoop. 34,138 is the position in the node space of the _catapultArm
         CGPoint fruitPosition = [_catapultArm convertToWorldSpace:ccp(34, 138)];
         // transform the world position to the node space to which the penguin will be added (_physicsNode)
@@ -118,29 +118,60 @@
     [self releaseCatapult];
 }
 
-- (void)launchApple {
+- (void)launchCannon {
     // loads the Penguin.ccb we have set up in Spritebuilder
-    CCNode* apple = [CCBReader load:@"Apple"];
+    CCNode* cannon = [CCBReader load:@"Cannonball"];
     // position the penguin at the bowl of the catapult
-    apple.position = ccpAdd(_catapultArm.position, ccp(16, 50));
+    cannon.position = ccpAdd(_catapultArm.position, ccp(16, 50));
     
     // add the penguin to the physicsNode of this scene (because it has physics enabled)
-    [_physicsNode addChild:apple];
+    [_physicsNode addChild:cannon];
     
     // manually create & apply a force to launch the penguin
     CGPoint launchDirection = ccp(1, 0);
     CGPoint force = ccpMult(launchDirection, 8000);
-    [apple.physicsBody applyForce:force];
+    [cannon.physicsBody applyForce:force];
     
     // ensure followed object is in visible are when starting
     self.position = ccp(0, 0);
-    CCActionFollow *follow = [CCActionFollow actionWithTarget:apple worldBoundary:self.boundingBox];
+    CCActionFollow *follow = [CCActionFollow actionWithTarget:cannon worldBoundary:self.boundingBox];
     [_contentNode runAction:follow];
 }
 
 - (void)retry {
     // reload this level
     [[CCDirector sharedDirector] replaceScene: [CCBReader loadAsScene:@"Gameplay"]];
+}
+
+- (void)back {
+    // reload menu
+    CCScene *menuScene = [CCBReader loadAsScene:@"Menu"];
+    [[CCDirector sharedDirector] replaceScene:menuScene];
+}
+
+-(void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair apple:(CCNode *)nodeA wildcard:(CCNode *)nodeB
+{
+    float energy = [pair totalKineticEnergy];
+    
+    // if energy is large enough, remove the seal
+    if (energy > 5000.f)
+    {
+        [self appleRemoved:nodeA];
+    }
+}
+
+- (void)appleRemoved:(CCNode *)apple {
+    // load particle effect
+    CCParticleSystem *explosion = (CCParticleSystem *)[CCBReader load:@"AppleExplosion"];
+    // make the particle effect clean itself up, once it is completed
+    explosion.autoRemoveOnFinish = TRUE;
+    // place the particle effect on the seals position
+    explosion.position = apple.position;
+    // add the particle effect to the same node the seal is on
+    [apple.parent addChild:explosion];
+    
+    // finally, remove the destroyed seal
+    [apple removeFromParent];
 }
 
 @end

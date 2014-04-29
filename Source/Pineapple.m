@@ -10,4 +10,8 @@
 
 @implementation Pineapple
 
+- (void)didLoadFromCCB {
+    self.physicsBody.collisionType = @"pineapple";
+}
+
 @end

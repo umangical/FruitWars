@@ -10,4 +10,8 @@
 
 @implementation Kiwi
 
+- (void)didLoadFromCCB {
+    self.physicsBody.collisionType = @"kiwi";
+}
+
 @end
